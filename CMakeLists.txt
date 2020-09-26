@@ -2,9 +2,9 @@ cmake_minimum_required(VERSION 3.8)
 project(vuh VERSION 1.1.3)
 
 option(VUH_BUILD_BENCHMARKS "Build benchmarks for vuh library" OFF)
-option(VUH_BUILD_DOCS "Build doxygen documentation for vuh" ON)
+option(VUH_BUILD_DOCS "Build doxygen documentation for vuh" OFF)
 option(VUH_BUILD_EXAMPLES "Build examples of using vuh" ON)
-option(VUH_BUILD_TESTS "Build tests for vuh library" ON)
+option(VUH_BUILD_TESTS "Build tests for vuh library" OFF)
 
 set(CMAKE_CXX_STANDARD 14)
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/config)
